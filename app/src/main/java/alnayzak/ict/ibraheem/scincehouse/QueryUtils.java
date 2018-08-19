@@ -49,32 +49,21 @@ public class QueryUtils {
         ArrayList<News> news = new ArrayList<>();
 
         try {
-            JSONObject response = new JSONObject(newsJSON).getJSONObject("items");
-            JSONArray newsArray;
-            try{
-            if (response.has("etag")) {
-                newsArray = response.getJSONArray("items");
-                String title = "", datePublished = "", url = "";
-                for (int i = 0; i < newsArray.length(); i++) {
-                    try {
-                        if (newsArray.getJSONObject(i).has("title"))
-                            title = newsArray.getJSONObject(i).getString("title");
-                        if (newsArray.getJSONObject(i).has("published"))
-                            datePublished = newsArray.getJSONObject(i).getString("published");
-                        if (newsArray.getJSONObject(i).has("url"))
-                            url = newsArray.getJSONObject(i).getString("url");
-                        news.add(new News(title, datePublished, url));
-                    } catch (Exception e) {
-                        Log.e(LOG_TAG, "Problem 1");
-                    }
+            JSONArray  newsArray = new JSONObject(newsJSON).getJSONArray("items");
+            String title = "", datePublished = "", url = "";
+            for (int i = 0; i < newsArray.length(); i++) {
+                try {
+                    if (newsArray.getJSONObject(i).has("title"))
+                        title = newsArray.getJSONObject(i).getString("title");
+                    if (newsArray.getJSONObject(i).has("published"))
+                        datePublished = newsArray.getJSONObject(i).getString("published");
+                    if (newsArray.getJSONObject(i).has("url"))
+                        url = newsArray.getJSONObject(i).getString("url");
+                    news.add(new News(title, datePublished, url));
+                } catch (Exception e) {
+                    Log.e(LOG_TAG, "Problem 1");
                 }
             }
-            else {
-                    Log.e(LOG_TAG, "No results available");
-                }
-            } catch (Exception e) {
-            Log.e(LOG_TAG, "Problem 2");
-        }
         } catch (Exception e) {
             Log.e(LOG_TAG, "Problem !");
         }
