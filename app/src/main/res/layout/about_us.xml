@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    tools:context=".About"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_weight=".25"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/sc_nay"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+            android:fontFamily="@font/quicksand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/about_us"
+            android:textColor="#0097e6"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </ScrollView>
+    <LinearLayout
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/book_tour_as"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#0097e6"
+            android:textColor="#f5f6fa"
+            android:layout_height="match_parent"
+            android:text="Book A Tour"/>
+        <Button
+            android:layout_marginRight="2dp"
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/Latest_news_as"
+            android:layout_weight="1"
+            android:background="#0097e6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#f5f6fa"
+            android:text="Latest News"/>
+        <Button
+            android:layout_marginRight="2dp"
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/GShop_as"
+            android:layout_weight="1"
+            android:background="#0097e6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#f5f6fa"
+            android:text="Gift Shop"/>
+        <Button
+            android:layout_marginRight="2dp"
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/Contact_US_as"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Contact us"
+            android:textColor="#f5f6fa"
+            android:background="#0097e6"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="no_internet_connection">No Connection</string>
+    <string name="no_news">No News To View</string>
+    <string name="app_name">Science House</string>
+    <string name="about_us">The Science and Technology House is a dynamic body that follows the developments and advancements in the scientific, engineering, and technology aspects of our everyday lives. These phenomena are presented to the house’s visitors (children and adults) in an interactive manner that guarantees the visitors’ engagement in the process of knowledge acquisition, and guarantees the visitors’ entertainment with science and technology.
+
+The science house is considered an extracurricular educational institution that assists educators in channeling true knowledge to children in practical and exiting manner. It is also a place to have fun and spend vacation days as it contains various sections that are of interest to all ages and educational levels.
+
+The Science House is named after Sa’adeh family because this prestigious family from Birzeit has donated its old house for 15 years to be renovated and used by Al Nayzak Organization.
+The Science House aims at receiving 15 thousand students annually. Currently, the House is a destination for schools where specialized scientific trips are organized to enjoy hours of science and fun in a distinctive manner. The Science House experience is not only limited to specialized scientific visits, but can also re-introduces daily activities and special occasions. \n\n</string>
+    <string name="hopper_desc">Hoppers is a fun thinking game that teaches logic, problem solving and evaluation of consequences. A set of frogs on a pond, jumping until only one is left standing. </string>
+    <string name="hopper_main">"• Skills: Logic - Problem Solving –Planning- sequential thinking   • Age: 5 and Up    • Game type: Cooperative   • Players: 1 Player or more    • Levels: 40</string>
+    <string name="enis">Einstein’s riddle is one of the complex riddles developed by the physicist Albert Einstein and relies on the basis of logical and critical thinking. The game requires a huge amount of concentration, and logical organization and sequencing towards the solution. The game addresses skills of team work and team dynamics. We ask ourselves, is team work always the best method towards achieving solutions? What are the characteristics of good team?</string>
+    <string name="smm">• Skills: Memory, analysis and finding connections   • Age group: 8 years and above  • Type: competitive     • Number of players: 2 to 4 players     • Levels: none</string>
+    <string name="tqd">With 4 pieces of cardboard the player is challenged to build meaningful shapes by putting them together, not covering any in order to build a shape from the ones in the shape’s list.</string>
+    <string name="tqm">• Skills: imagination, analysis, thinking outside the box    • Age group: 5 and above    • Type: cooperative     • Number of players: 2 to 4 player  • Number of levels: 36</string>
+    <string name="cyd">Challenge yourself is a fun game that puts the player in front of 14 challenges, with each card having a question in the form of a riddle. The player has to solve the riddle and can use the solution symbols on the opposite side of the card. The player can also review the “knot” to know why these riddles cannot be solved using traditional thinking methods.</string>
+    <string name="cym">• Skills: problem solving, analysis and connections, thinking outside the box    • Age group: 10 and above   • Type of game: cooperative     • Number of players: one    • Number of levels: 14</string>
+    <string name="badird">A fun game of 14 thinking statuses, in each card you will find a thinking status in the form of a riddle
+Each player has to think, s/he can use the solution code on the back of the card, they can also check the “knot” to know what to do in each status.</string>
+    <string name="badirm">• Skills: problem solving, analysis, thinking outside the box     • Age group: 12 and above   • Type of game: cooperative     • Number of players: one    • Number of levels: 14</string>
+    <string name="rhd">Imagine you have gone to visit a friend or a relative, you parked your car in the building parking, and when it was time to leave, you find that your car was stuck after the neighbors have come home. They left their car keys for you to get your car out. Try to get out of the parking lot using the rules of the game.</string>
+    <string name="rhm">• Skills: problem solving, setting goals, planning, analytical and logical thinking  • Age group: 8 and above    • Type: cooperative     • Number of players: one or two     • Number of levels: 40 levels in each phase</string>
+    <string name="smd">Through finding the relation between the card through pictures or texts, the player develops the memory and analyzes the network in addition to knowing the scientists and their most important achievement in an amusing way.</string>
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097e6"
+    tools:context=".Contact">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pattern_trt"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand"
+            android:textColor="#f5f6fa"
+            android:text="Your Name :"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/contacting_field_name"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#f5f6fa"
+            android:textColor="#718093" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand"
+            android:text="Your Phone number :"
+            android:textColor="#f5f6fa"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/contacting_field_phone_number"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#f5f6fa"
+            android:inputType="phone"
+            android:textColor="#718093" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject :"
+            android:fontFamily="@font/quicksand"
+            android:textColor="#f5f6fa"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/contacting_field_subject"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#f5f6fa"
+            android:inputType="textEmailSubject"
+            android:textColor="#718093" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/quicksand"
+            android:textColor="#f5f6fa"
+            android:text="Message :"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:fontFamily="@font/quicksand"
+            android:id="@+id/contacting_field_message"
+            android:layout_width="250dp"
+            android:layout_height="350dp"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="10sp"
+            android:background="#f5f6fa"
+            android:textColor="#718093"
+            android:gravity="top"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contacting_button_send"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Send"
+        android:fontFamily="@font/quicksand"
+        android:textColor="#f5f6fa"
+        android:background="#718093"
+        android:textSize="16sp" />
+</LinearLayout>
+
+</RelativeLayout>

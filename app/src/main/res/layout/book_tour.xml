@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097e6"
+    android:orientation="vertical"
+    tools:context=".Tour">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Name :"
+            style="@style/BookingTour"
+            />
+
+        <EditText
+            android:id="@+id/Booking_Person_Name"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:fontFamily="@font/quicksand"
+            android:background="#718093"
+            android:textColor="#f5f6fa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your City : "
+            style="@style/BookingTour"
+            />
+
+        <EditText
+            android:id="@+id/Booking_City_Name"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BookingTour"
+            android:text="Your Organization Name :"
+            />
+
+        <EditText
+            android:id="@+id/Booking_ORG_Name"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Organization Number :"
+            style="@style/BookingTour"/>
+
+        <EditText
+            android:id="@+id/Booking_ORG_Number"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number : "
+            style="@style/BookingTour" />
+
+        <EditText
+            android:id="@+id/Booking_Person_Number"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:inputType="phone"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20sp"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="200sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Of Tour :"
+            style="@style/BookingTour"/>
+
+        <EditText
+            android:id="@+id/Booking_Date"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:inputType="date"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number Of Adults :"
+            style="@style/BookingTour"/>
+
+        <Button
+            android:id="@+id/minusA"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="15sp"
+            android:text="-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand"/>
+
+        <TextView
+            android:id="@+id/adultsN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:text="0"
+            style="@style/BookingTour" />
+
+        <Button
+            android:id="@+id/plusadults"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand"
+            android:text="+"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BookingTour"
+            android:text="Number Of Kids :   " />
+
+        <Button
+            android:id="@+id/minusK"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="15sp"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand"
+            android:text="-"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/kidsN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:text="0"
+            style="@style/BookingTour" />
+
+        <Button
+            android:id="@+id/plusK"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:background="#718093"
+            android:textColor="#f5f6fa"
+            android:fontFamily="@font/quicksand"
+            android:text="+"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/costs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="You Have to Pay : 0 ILS"
+        style="@style/BookingTour"
+        />
+
+    <Button
+        android:id="@+id/Booking_Tour_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="50dp"
+        android:background="#718093"
+        android:textColor="#f5f6fa"
+        android:fontFamily="@font/quicksand"
+        android:paddingHorizontal="20sp"
+        android:text="Submit"
+        android:textSize="20sp" />
+</LinearLayout>

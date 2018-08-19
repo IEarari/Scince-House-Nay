@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    tools:layout_editor_absoluteY="25dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5f6fa"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pattern"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/sc_home"
+            android:layout_marginBottom="50dp"
+            android:scaleType="centerInside"/>
+</RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12.5sp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/book"
+                    style="@style/MainActivityButtons"
+                    android:layout_marginTop="0dp"
+                    android:text="Book A Tour" />
+
+                <Button
+                    android:id="@+id/gifts"
+                    style="@style/MainActivityButtons"
+                    android:text="Gift Shop" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.5sp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/news"
+                    style="@style/MainActivityButtons"
+                    android:layout_marginTop="0dp"
+                    android:text="Latest News" />
+
+                <Button
+                    android:id="@+id/about"
+                    style="@style/MainActivityButtons"
+                    android:text="About Us" />
+
+            </LinearLayout>
+        </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <Button
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/contact"
+                        style="@style/MainActivityButtons"
+                        android:text="Contact Us" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

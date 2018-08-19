@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "86785088180",
+    "firebase_url": "https://science-house-al-nayzak.firebaseio.com",
+    "project_id": "science-house-al-nayzak",
+    "storage_bucket": "science-house-al-nayzak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86785088180:android:7a90a30223ad4352",
+        "android_client_info": {
+          "package_name": "alnayzak.ict.ibraheem.scincehouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86785088180-r6af365jfcm3cjguukfu8sjqh8v7e9jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOLA0Df2sqlbvJB4iGTkyZwNhAkF9s5SA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
